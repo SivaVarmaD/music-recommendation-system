@@ -1,0 +1,28 @@
+.music-list {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+    transition: transform 0.3s; /* Add transition for smooth effect */
+  }
+
+  .music-list:hover {
+    transform: scale(1.05); /* Increase size on hover */
+  }
+  
+  .music-list h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .music-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .music-list li {
+    margin-bottom: 5px;
+  }
+  
+  /* Optional: Add more styles as needed */
+  
